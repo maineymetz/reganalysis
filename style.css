@@ -1,0 +1,50 @@
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black font color */
+    font-family: "Arial", sans-serif; /* Example font-family */
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  select {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .box-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    flex-basis: calc(16.66% - 8px); /* Adjust this value based on the number of boxes per row */
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    margin: 4px;
+  }
+  
+  .box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .box-heading {
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  .box-text {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  
