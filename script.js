@@ -364,8 +364,3 @@ containerRows.forEach(function(container, rowIndex) {
     container.appendChild(box.parentNode.parentNode); // Move the entire box element
   });
 });
-
-     
-
-
-        
