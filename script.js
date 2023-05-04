@@ -366,5 +366,13 @@ containerRows.forEach(function(container, rowIndex) {
 });
 
      
-        
+const selectElement = document.getElementById('user-dropdown');
+const options = Array.from(selectElement.options);
+
+options.sort((a, b) => a.text.localeCompare(b.text));
+
+for (const option of options) {
+  selectElement.appendChild(option);
+};
+
         
