@@ -369,10 +369,10 @@ containerRows.forEach(function(container, rowIndex) {
 const selectElement = document.getElementById('user-dropdown');
 const options = Array.from(selectElement.options);
 
-options.sort((a, b) => a.text.localeCompare(b.text));
+options.sort((a, b) => a.text.toLowerCase().localeCompare(b.text.toLowerCase()));
 
 for (const option of options) {
   selectElement.appendChild(option);
-};
+}
 
         
