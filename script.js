@@ -350,11 +350,13 @@ var containerRows = document.querySelectorAll('.box-row');
 
 // Define the desired order of the box IDs in rows
 var desiredOrderRows = [
-  ['box1', 'box2', 'box3', 'box4', 'box5', 'box6', 'box24'],
-  ['box7', 'box8', 'box9', 'box10', 'box11', 'box12', 'box25'],
-  ['box13', 'box14', 'box15', 'box26', 'box27', 'box16', 'box17'],
-  ['box18', 'box22', 'box19', 'box20', 'box21', 'box28'],
-  ['box23']
+  ['box1', 'box2', 'box3', 'box4', 'box5', 'box6'],
+  ['box7', 'box8', 'box9', 'box24'],
+  ['box10', 'box12', 'box13', 'box26', 'box16', 'box17'],
+  ['box14', 'box15', 'box25', 'box28'],
+  ['box18', 'box22', 'box20', 'box19'],
+  ['box21', 'box23']
+  
 ];
 
 // Rearrange the boxes in rows based on the desired order
