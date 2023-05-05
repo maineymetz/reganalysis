@@ -71,9 +71,9 @@ function navigateToUser() {
     var box1 = document.getElementById("box6");
     var value = parseInt(box1.textContent);
   
-    if (value > 62) {
+    if (value > 54) {
       box1.parentElement.style.backgroundColor = "red";
-    } else if (value <= 62 && value >= 44) {
+    } else if (value <= 54 && value >= 44) {
       box1.parentElement.style.backgroundColor = "yellow";
     } else {
       box1.parentElement.style.backgroundColor = "green";
