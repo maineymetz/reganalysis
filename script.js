@@ -352,7 +352,7 @@ var containerRows = document.querySelectorAll('.box-row');
 var desiredOrderRows = [
   ['box1', 'box2', 'box3', 'box4', 'box5', 'box6'],
   ['box7', 'box8', 'box9', 'box24'],
-  ['box12', 'box10', 'box11', 'box27', 'box26', 'box16', 'box17'],
+  ['box12', 'box10', 'box11', 'box13', 'box26', 'box16', 'box17'],
   ['box15', 'box14', 'box25', 'box28'],
   ['box21', 'box18', 'box22', 'box19', 'box20'], 
   ['box23']
